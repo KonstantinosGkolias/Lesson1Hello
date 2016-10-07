@@ -13,7 +13,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="60dp"
-        android:text="@string/helloText" />
+        android:text="@string/helloText"
+        android:id="@+id/textview"/>
+
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:textSize="40dp"
+        android:text="@string/buttonText"
+        android:layout_below="@+id/textview"
+
+        />
 </RelativeLayout>
 
 
